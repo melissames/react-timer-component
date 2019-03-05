@@ -1,0 +1,57 @@
+$timer-font: 'Orbitron', sans-serif;
+$clock-background: #000000;
+$clock-font-color: 	#32CD32;
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $timer-font;
+  font-size: 5em;
+  color: $clock-font-color;
+}
+
+button {
+  font-family: $timer-font;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: $clock-background;
+  color: $clock-font-color;
+  padding-top: 5px;
+  border-color: $clock-font-color;
+  width: 100px;
+  height: 50px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  opacity: .5;
+}
+
+.stopwatch {
+  background-color: $clock-background;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  width: 80vh;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.split-list {
+  color: $clock-font-color;
+}

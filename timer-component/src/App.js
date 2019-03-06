@@ -5,7 +5,7 @@ import Stopwatch from './components/Stopwatch.js'
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className='centered'>
         <Stopwatch />
       </div>
     );
